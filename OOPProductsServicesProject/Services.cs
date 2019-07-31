@@ -11,5 +11,9 @@ namespace OOPProductsServicesProject {
             this.rate = Rate;
             this.hours = Hours;
         }
+
+        public int ServicesSales() {
+            return this.rate * this.hours;
+        }
     }
 }

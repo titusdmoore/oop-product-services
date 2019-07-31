@@ -7,8 +7,8 @@ namespace OOPProductsServicesProject {
         public int id { get; set; }
         public string name { get; set; }
 
-        //public decimal GetProductSales(decimal amount, int times) {
-        //    return amount * times;
-        //}
+        public static decimal GetSales(decimal products, int services) {
+            return products + services;
+        }
     }
 }
